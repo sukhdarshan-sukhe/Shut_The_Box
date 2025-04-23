@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 24
+names: ['1', '2', '3', '4', '5', '6', 'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9', 'O1', 'O2', 'O3', 'O4', 'O5', 'O6', 'O7', 'O8', 'O9']
+
+roboflow:
+  workspace: shutthebox-bs5cd
+  project: dataset-g7euf
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/shutthebox-bs5cd/dataset-g7euf/dataset/8
